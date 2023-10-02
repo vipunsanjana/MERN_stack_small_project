@@ -1,0 +1,96 @@
+body {
+    background: rgb(184, 13, 172);
+    background: radial-gradient(circle,
+            rgb(161, 13, 154) 40%,
+            rgb(223, 219, 222) 100%,
+            rgb(234, 230, 233) 40%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 500px;
+    margin: auto;
+}
+
+.container form {
+    height: 600px;
+    width: 70%;
+    border: 1px solid #090404;
+    padding: 20px;
+    border-radius: 5px;
+    background: #fff;
+    padding: 0px 60px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+
+button{
+    width: 110%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+button:hover{
+    background-color: rgb(7, 1, 1);
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.ui.form {
+    max-width: 300px; 
+    margin: 0 auto;
+}
+
+
+.field {
+    margin-bottom: 15px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #090404;
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    color: #999;
+}
+
